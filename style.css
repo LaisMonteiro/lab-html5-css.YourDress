@@ -1,46 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body{
-    font-family: 'Poppins', Verdana;
+    font-family: 'Poppins'
 }
+
 h1{
-    font-size: x-large;
+    font-size: 16px;
+    text-align: center;
+    background:  rgb(252, 233, 229);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    margin: 50px 500px 0px 500px;
 }
 h2{
-    font-size: larger;
+    font-size: 10px;
+    text-align: left;
+    border-bottom: 1px solid  #f4f2f0;
+    padding: 0px 0px 30px 40px;
+    font-weight: lighter;
+    text-decoration-color: rgb(253, 165, 183);
 }
+p{
+    font-size: 14px;
+    text-align: center;
+}
+
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 10px;
-    border-bottom: 1px solid rgba(233, 233, 214, 0.781);
+    align-items: center;
+    padding: 10px 0px 0px 0px;
 }
 .logo{
     width: 50px;
-    padding: 0px; 
-    border-radius:50px ; 
-    border:solid rgba(233, 233, 214, 0.781);
+    border-radius: 200px ; 
+    border:solid rgb(252, 233, 229);
     border-width: 2px;
+    margin-left: 50px;
 }
 .header form {
-    border: solid rgba(233, 233, 214, 0.781);
+    border: solid #f4f2f0;
     border-width: 1px;
     border-radius: 5px;
     padding: 5px 10px;
-    margin: 10px 10px 0px 10px ;
-    width: 550px;
-    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 40px;
 }
 .form{
-    margin-right: auto;
+    margin-right: 10px;
 }
 .formulario{
-    width: 510px;
+    width: 480px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     border: none;
+}
+.lupa{
+    list-style: none;
+    text-decoration: none;
 }
 .header nav{
     list-style: none;
@@ -60,14 +80,82 @@ h2{
     list-style: none;
     text-decoration: none;
     padding: 5px 15px;
-    text-decoration-color: black;
 
 }
-.logoHelp{
-    width: 50px;
-    padding: 15px;
+.logos{
+    width: 30px;
+    margin: auto;
+    padding: 0px 5px 0px 5px;
 }
-.logoMsg{
-    width: 50px;
-    padding: 15px;
+.login{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: auto 60px auto auto;
+    background:  rgb(232, 135, 147);
+    font-size: 13px;
+    box-shadow: 4px 4px 0 rgba(251,59,73,.2);
+}
+.divisorlateral{
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 34px;
+    background: #f4f2f0;
+    margin: 5px 10px;
+}
+.banner{
+    padding: 10px 0px;
+    margin: auto;
+    border-bottom: 1px solid  #f4f2f0;
+}
+/* .banner >img{
+    padding: 10px 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}*/
+.bannerimg{
+    padding: 10px 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0px 100px 0px 100px;
+    text-decoration-color: rgb(232, 135, 147);
+    
+}
+.line1 img{
+    height: 440px;
+    padding: 1px;
+}
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration-color: rgb(232, 135, 147);
+    padding: 0px 0px 10px 0px;
+}
+.line3{
+    display: flex;
+    align-items: center;
+    justify-content: center;s
+    margin: auto;
+}
+.line3 img{
+    height: 440px;
+    padding: 1px;
+}
+.confira{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px 0px 0px 1200px;
 }

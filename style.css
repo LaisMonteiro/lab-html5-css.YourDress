@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
 
 body{
-    font-family: 'Poppins'
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     background:  rgb(252, 233, 229);
     transform: skew(9deg,0deg);
@@ -16,9 +16,10 @@ h2{
     font-size: 10px;
     text-align: left;
     border-bottom: 1px solid  #f4f2f0;
-    padding: 0px 0px 30px 40px;
+    padding: 0px 0px 15px 40px;
     font-weight: lighter;
-    text-decoration-color: rgb(253, 165, 183);
+    color: rgb(253, 165, 183);
+    margin: 0px 0px 10px 0px;
 }
 p{
     font-size: 14px;
@@ -30,7 +31,11 @@ p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px 0px 0px;
+    padding: 35px 0px 0px 0px;
+}
+.header h2{
+    font-weight: lighter;
+    color:rgb(247, 191, 204);
 }
 .logo{
     width: 50px;
@@ -76,16 +81,18 @@ p{
     flex-direction: row;
     align-items: center;   
 }
+.header nav> ul > li > a {
+    color: darkslategrey;
+}
 .link{
     list-style: none;
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 5px 15px 0px 15px;
 
 }
 .logos{
-    width: 30px;
-    margin: auto;
-    padding: 0px 5px 0px 5px;
+    width: 25px;
+    margin: 10px;
 }
 .login{
     list-style: none;
@@ -94,6 +101,7 @@ p{
     margin: auto 60px auto auto;
     background:  rgb(232, 135, 147);
     font-size: 13px;
+    color: white;
     box-shadow: 4px 4px 0 rgba(251,59,73,.2);
 }
 .divisorlateral{
@@ -104,25 +112,30 @@ p{
     background: #f4f2f0;
     margin: 5px 10px;
 }
+/* codigos usados na primeira versao do LAB
+
 .banner{
     padding: 10px 0px;
     margin: auto;
     border-bottom: 1px solid  #f4f2f0;
 }
-/* .banner >img{
+/*.banner >img{
     padding: 10px 0px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}*/
+}
 .bannerimg{
     padding: 10px 0px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+.imagembanner3{
+    width: 1140px;
+    height: 570px;
 }
 .line1{
     display: flex;
@@ -130,8 +143,6 @@ p{
     justify-content: space-around;
     margin: auto;
     padding: 0px 100px 0px 100px;
-    text-decoration-color: rgb(232, 135, 147);
-    
 }
 .line1 img{
     height: 440px;
@@ -147,8 +158,9 @@ p{
 .line3{
     display: flex;
     align-items: center;
-    justify-content: center;s
+    justify-content: space-around;
     margin: auto;
+    padding: 0px 100px 0px 100px;
 }
 .line3 img{
     height: 440px;
@@ -158,4 +170,63 @@ p{
     text-decoration: none;
     font-size: 14px;
     margin: 0px 0px 0px 1200px;
+}
+.tooltip .tooltiptext {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(252, 233, 229);
+    margin-top: 50px;
+}
+.footer address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 15px;
+    text-size-adjust: 8px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer ul > a {
+    text-decoration: none;
+    color:rgb(48, 119, 170);
+}
+
+.footer h5 {
+    font-size: larger;
+}
+
+.footerContent {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+
+.footerContent h5 {
+    display: flex;
+    justify-content: center;
+    color: darkslategrey;
+}
+.maps{
+    padding: 10px;
 }
